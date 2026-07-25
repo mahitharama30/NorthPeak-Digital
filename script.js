@@ -9,7 +9,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Contact Form Validation
 const form = document.getElementById("contactForm");
 
 form.addEventListener("submit", function (e) {
@@ -41,7 +40,6 @@ form.addEventListener("submit", function (e) {
     form.reset();
 });
 
-// Reveal sections on scroll
 const sections = document.querySelectorAll("section");
 
 const observer = new IntersectionObserver((entries) => {
